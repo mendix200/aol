@@ -36,45 +36,45 @@
                 <img src="./images/14.jpeg" alt="iPhone 14 Pro" width="200px">
                 <h3>iPhone 14 Pro (256GB)</h3>
                 <p>Price: #950,000</p>
-                <button onclick="buyNow('iPhone 14 Pro', 950)">Buy Now</button>
-                <button onclick="showInstallmentForm('iPhone 14 Pro', 950)">Pay in Installments</button>
+                <button onclick="buyNow('iPhone 14 Pro', 950000)">Buy Now</button>
+                <button onclick="showInstallmentForm('iPhone 14 Pro', 950000)">Pay in Installments</button>
             </div>
 
-            <!-- Example Product: Samsung Galaxy S21 -->
+            <!-- Example Product: iphone -->
             <div class="product">
                 <img src="./images/16 FACE.jpeg" alt="Iphone 16 Pro Max" width="200px">
                 <h3>Iphone 16 Pro Max</h3>
                 <p>Price: #2,500,000</p>
                 <button onclick="buyNow('Iphone 16 Pro Max', 2500000)">Buy Now</button>
-                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 699)">Pay in Installments</button>
+                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 2500000)">Pay in Installments</button>
             </div>
             <div class="product">
                 <img src="./images/16 FACE.jpeg" alt="Iphone 16 Pro Max" width="200px">
                 <h3>Iphone 16 Pro Max</h3>
                 <p>Price: #2,500,000</p>
                 <button onclick="buyNow('Iphone 16 Pro Max', 2500000)">Buy Now</button>
-                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 699)">Pay in Installments</button>
+                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 2500000)">Pay in Installments</button>
             </div>
             <div class="product">
                 <img src="./images/16 FACE.jpeg" alt="Iphone 16 Pro Max" width="200px">
                 <h3>Iphone 16 Pro Max</h3>
                 <p>Price: #2,500,000</p>
                 <button onclick="buyNow('Iphone 16 Pro Max', 2500000)">Buy Now</button>
-                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 699)">Pay in Installments</button>
+                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 2500000)">Pay in Installments</button>
             </div>
             <div class="product">
                 <img src="./images/16 FACE.jpeg" alt="Iphone 16 Pro Max" width="200px">
                 <h3>Iphone 16 Pro Max</h3>
                 <p>Price: #2,500,000</p>
                 <button onclick="buyNow('Iphone 16 Pro Max', 2500000)">Buy Now</button>
-                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 699)">Pay in Installments</button>
+                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 2500000)">Pay in Installments</button>
             </div>
             <div class="product">
                 <img src="./images/16 FACE.jpeg" alt="Iphone 16 Pro Max" width="200px">
                 <h3>Iphone 16 Pro Max</h3>
                 <p>Price: #2,500,000</p>
                 <button onclick="buyNow('Iphone 16 Pro Max', 2500000)">Buy Now</button>
-                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 699)">Pay in Installments</button>
+                <button onclick="showInstallmentForm('Iphone 16 Pro Max', 2500000)">Pay in Installments</button>
             </div>
         </section>
 
@@ -82,7 +82,7 @@
         <section id="payment-form">
             <h2>Payment Information</h2>
             <p>Complete your purchase for: <span id="product-name"></span></p>
-            <p>Total: #950,000<span id="product-price"></span></p>
+            <p>Total: #<span id="product-price"></span></p>
             <form id="paymentForm">
                 <label for="cardName">Name on Card:</label>
                 <input type="text" id="cardName" required>
@@ -104,7 +104,7 @@
         <section id="installment-form" style="display: none;">
             <h2>Installment Payment Information</h2>
             <p>Pay in installments for: <span id="installment-product-name"></span></p>
-            <p>Installment Price (monthly): $<span id="installment-price"></span></p>
+            <p>Installment Price (monthly): #<span id="installment-price"></span></p>
             <form id="installmentPaymentForm">
                 <label for="name">Full Name:</label>
                 <input type="text" id="name" required>
