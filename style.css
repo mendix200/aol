@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2e88f57d;
+    
+}
+
+header {
+    background-color: #02176cbc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.h2{
+    border: 2px solid red;
+    text-align: center;
+    padding: 5px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 5px;
+    border: 2px solid gold;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #19a4ea;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+#payment-form, #installment-form {
+    border-top: 4px solid #d7d728;
+    padding-top: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: inline-block;
+    flex-direction: column;
+    gap: 15px;
+}
+label{
+    border: 2px red;
+    display: block;
+}
+
+button {
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    background-color: #3a16efb3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #50b0f5;
+}
+
+
+header nav {
+    display: flex;
+    gap: 15px;
+    
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+#about, #contact {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
